@@ -1,0 +1,23 @@
+body {
+    background-color: #f0f2f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 200px auto;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input, button, select {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+}

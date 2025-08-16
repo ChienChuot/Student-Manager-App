@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Manager App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="nav-date"></div>
+    <div class="container">
+      <h2>Student Manager</h2>
+      <form id="studentForm">
+        <input type="text" id="studentName" placeholder="Họ và tên" />
+        <input type="number" id="studentAge" placeholder="Tuổi" />
+        <input
+          type="number"
+          id="studentScore"
+          placeholder="Điểm trung bình"
+          step="0.1"
+        />
+        <button type="submit">Thêm sinh viên</button>
+      </form>
+
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Tìm kiếm theo tên tuổi"
+      />
+      <select id="filterScore">
+        <option value="all">Tất cả</option>
+        <option value="good">Giỏi (>=8)</option>
+        <option value="weak">Yếu (<5)</option>
+      </select>
+
+      <ul id="studentList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
